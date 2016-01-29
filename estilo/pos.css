@@ -1,19 +1,25 @@
 div { 
 		height: 200px;
 		width: 200px;
-		position: static;
+		position: absolute;
 	}
 	.m1 {
 		background-color: red;
-		position: static;
-		left: 50px;
+		left: 0px;
+		top: 0px;
 	}
 	.menor2 {
 		background-color: green;
-		position: relative;
-		left: 200px;
+		right: 0px;
+		top: 0px;
 	}
 	.menor3 {
 		background-color: purple;
-		position: relative;
+		left: 0px;
+		bottom: 0px;
 	}
+	.men4 {
+		background-color: orange;
+		right: 0px;
+		bottom: 0px;
+}
